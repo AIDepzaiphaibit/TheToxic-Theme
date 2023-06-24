@@ -1,5 +1,5 @@
 {
-	"name": "Mariana",
+	"name": "Toxical",
 	"author": "The Toxic",
 	"variables":
 	{
@@ -20,7 +20,7 @@
 		"white2": "hsl(0, 0%, 97%)",
 		"white3": "hsl(219, 28%, 88%)",
 		"stringcolor": "rgb(167, 199, 78)",
-		"controlcommand": "rgb(76, 111, 156)",
+		"controlcommand": "rgb(50, 138, 201)",
 		"error": "rgb(194, 245, 83)"
 	},
 	"globals":
