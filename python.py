@@ -2,7 +2,10 @@
 from import as
 while
 for in
-if else or and
+if
+else
+elif
+or and
 with in as
 <+-*/=>!=
 True False None
