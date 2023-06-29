@@ -6,8 +6,7 @@
 		"black": "rgb(0, 0, 0)",
 		"blue": "rgb(57, 114, 137)",
 		"blue-vibrant": "hsl(210, 60%, 60%)",
-		"blue2": "hsla(210, 13%, 40%, 0.7)",
-		"blue3": "hsl(210, 15%, 22%)",
+		"blue2": "rgb(62, 94, 125)",
 		"blue4": "hsl(210, 13%, 45%)",
 		"blue5": "hsl(180, 36%, 54%)",
 		"blue6": "hsl(221, 12%, 69%)",
@@ -20,13 +19,14 @@
 		"white2": "hsl(0, 0%, 97%)",
 		"white3": "hsl(219, 28%, 88%)",
 		"stringcolor": "rgb(167, 199, 78)",
-		"controlcommand": "rgb(50, 138, 201)",
-		"error": "rgb(194, 245, 83)"
+		"controlcommand": "rgb(101, 124, 166)",
+		"error": "rgb(194, 245, 83)",
+		"background": "rgb(53, 64, 84)"
 	},
 	"globals":
 	{
 		"foreground": "var(white3)",
-		"background": "var(blue3)",
+		"background": "var(background)",
 		"accent": "var(blue-vibrant)",
 		"caret": "var(orange)",
 		"line_highlight": "var(blue2)",
