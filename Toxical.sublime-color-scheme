@@ -20,8 +20,10 @@
 		"white3": "hsl(219, 28%, 88%)",
 		"stringcolor": "rgb(167, 199, 78)",
 		"controlcommand": "rgb(101, 124, 166)",
+		"syntaxcommand": "rgb(50, 219, 138)",
 		"error": "rgb(194, 245, 83)",
-		"background": "rgb(53, 64, 84)"
+		"background": "rgb(53, 64, 84)",
+		"numbers": "rgb(73, 119, 227)"
 	},
 	"globals":
 	{
@@ -67,7 +69,7 @@
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
-			"foreground": "var(controlcommand)"
+			"foreground": "var(numbers)"
 		},
 		{
 			"name": "Number Suffix",
@@ -89,12 +91,12 @@
 		{
 			"name": "Member Variable",
 			"scope": "variable.member",
-			"foreground": "var(controlcommand)"
+			"foreground": "var(syntaxcommand)"
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword - keyword.operator, keyword.operator.word",
-			"foreground": "var(controlcommand)"
+			"foreground": "var(syntaxcommand)"
 		},
 		{
 			"name": "Operators",
@@ -122,11 +124,6 @@
 			"foreground": "var(blue5)"
 		},
 		{
-			"name": "JavaScript Dollar",
-			"scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
-			"foreground": "var(blue5)"
-		},
-		{
 			"name": "Storage",
 			"scope": "storage",
 			"foreground": "var(controlcommand)"
@@ -150,7 +147,7 @@
 		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
-			"foreground": "var(controlcommand)",
+			"foreground": "var(syntaxcommand)",
 			"font_style": "italic"
 		},
 		{
@@ -161,7 +158,7 @@
 		{
 			"name": "Language variable",
 			"scope": "variable.language",
-			"foreground": "var(controlcommand)",
+			"foreground": "var(syntaxcommand)",
 			"font_style": "italic"
 		},
 		{
